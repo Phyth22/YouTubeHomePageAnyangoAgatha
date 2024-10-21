@@ -1,0 +1,39 @@
+name: test_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add paths to your assets here
+    - assets/images/logo.png
+    - assets/images/food2.jpeg
+    - assets/images/food3.jpeg
+    - assets/images/food4.jpeg
+    - assets/images/food5.jpeg
+    - assets/images/food6.jpeg
+    - assets/images/food7.jpeg
+    - assets/images/food 9.jpeg
+    - assets/images/food 10.jpeg
+    - assets/images/food11.jpeg
+    - assets/images/food12.jpeg
+    
+    # If you have more assets, list them below like this:
+    # - assets/sounds/
